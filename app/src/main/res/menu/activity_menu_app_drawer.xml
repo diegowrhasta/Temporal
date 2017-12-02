@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/info"
+            android:title="Información" />
+        <item
+        android:id="@+id/pecera"
+        android:icon="@drawable/bowl"
+        android:title="Mi pecera" />
+        <item
+            android:id="@+id/gestionar"
+            android:icon="@drawable/libreta"
+            android:title="Gestionar" />
+        <item
+            android:id="@+id/alimento"
+            android:icon="@drawable/food"
+            android:title="Alimentación" />
+    </group>
+
+</menu>

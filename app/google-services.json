@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "970214328649",
+    "firebase_url": "https://prueba-ed255.firebaseio.com",
+    "project_id": "prueba-ed255",
+    "storage_bucket": "prueba-ed255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970214328649:android:7c20330e211f0901",
+        "android_client_info": {
+          "package_name": "com.example.diego.temporal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970214328649-79o8531pg67u1kv33tt2ee0ga42r1hvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-kJuyKKLdFwaBrXz7xxGgzcxBB8A6Pww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

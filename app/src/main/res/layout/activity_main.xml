@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diego.temporal.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:drawableTop="@drawable/babelfish"
+            android:text="Go Fish"
+            android:textSize="32dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione su perfil"
+            android:gravity="center"
+            />
+        <Spinner
+            android:id="@+id/mySpinner"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Ingrese su contraseña"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Dejar en blanco de no tener una)"/>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Perfil"
+            android:onClick="sendMessage"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:onClick="crearperfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crean Nuevo Perfil"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

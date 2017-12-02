@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.diego.temporal.fragments.FirstFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Tipos de peces"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Molly Vela"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/molly" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="El molly vela, Poecilia velifera, es un bello ejemplo de esta familia de los Pecílidos. Esta especie es oriunda de México. Los machos miden hasta 15 cm, y las hembras alcanzan los 18 cm.
+Los molly son ovovivíparos, lo que significa que los huevos eclosionan en el interior de las hembras y nacen ya en forma de alevines. Es conveniente que cuando una hembra se disponga a parir se la aísle en un pequeño acuario para ella sola y sus alevines.
+En un acuario pequeño deberá existir 1 macho y de 3 a 5 hembras. Si se pone otro macho se matarán entre sí. Los acuarios deben disponer de plantas y piedras para que se oculten los alevines y no sean devorados."
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Guppy"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/guppy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Las necesidades de temperatura del agua, su ph y la dureza son algo más exigentes entre los peces guppy; pero tienen un amplio espectro de tolerancia. También son ovovivíparos y muy fáciles de reproducir.
+El guppy, Poecilia reticulata, también llamado pez millón; procede de Sudamérica y se emplea mucho en acuariofilia por su belleza y extraordinaria facilidad de reproducción.
+Precisa acuarios de un mínimo de 40 litros, ya que les gusta desplazarse con suficiente espacio. En él pueden vivir 1 macho y 5 hembras, añadiendo 5 litros extra de agua por cada ejemplar añadido. Dada la facilidad de cría y el hecho de ser ovivípedos, conviene disponer de un pequeño acuario de cría donde aislar a la parturienta."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Betta"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/betta" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Otras especies idóneas para habitar en acuarios pequeños de 30 a 40 litros, son los que pertenecen a la familia de los Laberíntidos, cuyo más habitual representante en los acuarios es el pez betta.
+El pez luchador de Siam, Betta splendens, se trata de una espectacular especie propia para que 1 macho y de 3 a 5 hembras convivan en un acuario de 30 a 40 litros de agua.
+Esta especie procede de la cuenca del río Mekong y suele vivir en las aguas bajas de los arrozales. Jamás deben juntarse 2 machos, ya que son muy agresivos entre sí. Las hembras como mínimo deben ser 3, ya que una de ellas adquirirá más jerarquía que el resto y si fuera solo un ejemplar el supeditado, podría morir del estrés causado por la hembra dominante. Esta especie goza de unos 2 años de vida."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Cebra"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cebra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Una especie de Ciprínido común en los acuarios se trata del pequeño pez cebra.
+El pez cebra, Danio rerio, se trata de una especie propia del Sudeste Asiático. Su talla máxima es de 5 cm. Son semitransparentes y adornados con unas preciosas bandas longitudinales de un brillo metalizado espectacular.
+Como mínimo deben ponerse 6 ejemplares en el acuario, con preponderancia de hembras. Puede convivir con otras especies de tamaño similar. Esta especie es muy empleada en experimentos científicos. El 80% de su genoma coincide con el del ser humano."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Globo de agua dulce"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/globo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Hay ciertos tipos de peces algo más inquietos que no pueden juntarse con determinadas variedades menores porque sencillamente, se los comerían.
+Un buen ejemplo son los espectaculares peces globo de agua dulce, que por muy graciosos que parezca su bonito aspecto, su dieta es completamente carnívora y no dudarán en comerse a otros peces de igual o menor tamaño.
+El pez globo ocelado, Tetraodon biocellatus, es un ejemplar muy usado en acuarofilia por su gran capacidad para depredar las plagas de caracoles. Su hábitat natural procede de las aguas interiores de la India, Sumatra, Borneo y Java.
+Las hembras son algo mayores que los machos, llegando a medir 8 cm. Tienen la capacidad si se asustan de hincharse para semejar más grandes ante los posibles predadores. Su esperanza de vida son 4 o 5 años."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Tetra Neón"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tetra" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="El tetra neón, Paracheirodon innesi, es una especie propia del oeste de Sudamérica. Se caracteriza por su pequeño tamaño de 4 cm, y sus vivos colores. Su hábitat natural son los ríos de la cuenca Amazónica de Colombia, Perú y Brasil.
+En el acuario deben disponerse un mínimo de 12 ejemplares, ya que los ejemplares dominantes se desplazan en el centro del cardumen, sintiéndose protegidos por el resto del cardumen. Si no hay suficientes ejemplares los dominantes atacan al resto porque no se sienten suficientemente protegidos.
+Pueden convivir con otras especies de pequeño tamaño. Estos pequeños peces pueden vivir 6 o 7 años. Hay otras especies de peces tetra. Estos peces pertenecen a la misma familia que las pirañas."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Tipos de Peceras"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="-Acuarios de agua dulce: poseen una concentración de sales inferior al 0,5% y tratan de simular un ambiente lacustre o fluvial. Este tipo se podría subdividir a su vez en acuarios de agua dulce tropical y los de agua dulce fría.
+\n -Acuarios de agua salada: los que cuentan con una concentración salina entre 5% y 18%. En ellos se recrea un ambiente de arrecife, costero u oceánico. Han demostrado ser los más difíciles de mantener y estabilizar por las peculiaridades del agua salada. Todos estos son acuarios marinos, pese a reconocer ciertas diferencias.
+\n -Acuarios de agua salobre: simulan los ambientes intermedios en cuanto a concentración salina, como por ejemplo albuferas o estuarios, con concentraciones salinas comprendidas entre 0,5% y menos del 5%. Existe cierta discrepancia entre los autores acerca de si son o no un tipo diferente de los anteriores. A mi criterio son un tipo de acuario diferente, debido a que la medición en la salinidad es completamente diferente a los anteriormente descriptos."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Alimentos para peces"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="- Los peces carnívoros: se alimentan de otros peces, de gusanos, de insectos y hasta de crustáceos. Requieren de una alimentación más rica en proteinas y lípidos.
+
+\n- Los peces omnívoros: se alimentan prácticamente de todo. Sus dietas variadas, nos dan un ámplio abanico a la hora de la elección de su alimentación. Una mezcla de proteinas, de glúcidos y de lípidos será imprescindible.
+
+\n- Los peces herbívoros: contrariamente a lo que se piensa, su alimentación no se basa exclusivamente en la ingesta de vegetales. Éstos, comen también pequeñas presas vivas si tienen la ocasión. Necesitan sobretodo un buen aporte de glúcidos.
+\nLos alimentos a disposición son:
+\n\t-Alimentos Secos
+\n\t-Alimentos Frescos
+\n\t-Gusanos
+\n\t-Carne de Pescado
+\n\t-Moluscos
+\n\t-Los huevos de pescado
+\n\t-Los vegetales
+\n\t-Tubífex
+\n\t-Daphnias
+\n\t-Ciclops
+\n\t-Carne Cruda
+\n\t-Gusano Grindal"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
